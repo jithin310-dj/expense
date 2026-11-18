@@ -1,0 +1,144 @@
+
+/* Main application */
+.root {
+    -fx-background-color: #0f172a;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #e2e8f0;
+}
+
+/* Summary labels */
+.summary-label {
+    -fx-background-color: #1e293b;
+    -fx-text-fill: #38bdf8;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 18px;
+    -fx-background-radius: 12px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3b82f6;
+}
+
+/* Income button */
+.income-button {
+    -fx-background-color: #059669;
+}
+
+.income-button:hover {
+    -fx-background-color: #10b981;
+}
+
+/* Expense button */
+.expense-button {
+    -fx-background-color: #dc2626;
+}
+
+.expense-button:hover {
+    -fx-background-color: #ef4444;
+}
+
+/* Export button */
+.export-button {
+    -fx-background-color: #7c3aed;
+}
+
+.export-button:hover {
+    -fx-background-color: #8b5cf6;
+}
+
+/* Table */
+.table-view {
+    -fx-background-color: #1e293b;
+    -fx-border-color: #334155;
+    -fx-border-radius: 8px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #334155;
+}
+
+.table-view .column-header {
+    -fx-background-color: #334155;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #e2e8f0;
+    -fx-border-color: transparent;
+    -fx-padding: 10px;
+}
+
+.table-row-cell {
+    -fx-background-color: #1e293b;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #273449;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2563eb;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #334155;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #e2e8f0;
+}
+
+/* Pie chart */
+.chart {
+    -fx-background-color: #1e293b;
+    -fx-padding: 15px;
+    -fx-background-radius: 12px;
+}
+
+.chart-title {
+    -fx-text-fill: #f8fafc;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.chart-legend-item {
+    -fx-text-fill: white;
+}
+
+.chart-pie-label {
+    -fx-fill: white;
+}
+
+/* Text fields */
+.text-field,
+.date-picker {
+    -fx-background-color: #334155;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #94a3b8;
+    -fx-background-radius: 6px;
+}
